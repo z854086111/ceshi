@@ -15,7 +15,7 @@
     </el-time-select>
   </div>
 </template>
-<script> 
+<script>
   export default {
     data() {
       return {
