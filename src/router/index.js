@@ -12,6 +12,8 @@ import form from '@/components/form.vue'
 import form2 from '@/components/form2.vue'
 import form3 from '@/components/form3.vue'
 import form4 from '@/components/form4.vue'
+import page7 from '@/components/page7.vue'
+import page8 from '@/components/page8.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -75,6 +77,16 @@ export default new Router({
       path: '/form4',
       name: 'form4',
       component: form4
+    },
+    {
+      path: '/page7',
+      name: 'page7',
+      component: page7
+    },
+    {
+      path: '/page8',
+      name: 'page8',
+      component: page8
     }
   ]
 })
