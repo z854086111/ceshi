@@ -14,6 +14,10 @@ import form3 from '@/components/form3.vue'
 import form4 from '@/components/form4.vue'
 import page7 from '@/components/page7.vue'
 import page8 from '@/components/page8.vue'
+import alert from '@/components/alert.vue'
+import load from '@/components/load.vue'
+import message from '@/components/message.vue'
+import MessageBox from '@/components/MessageBox.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -87,6 +91,26 @@ export default new Router({
       path: '/page8',
       name: 'page8',
       component: page8
+    },
+    {
+      path: '/alert',
+      name: 'alert',
+      component: alert
+    },
+    {
+      path: '/load',
+      name: 'load',
+      component: load
+    },
+    {
+      path: '/message',
+      name: 'message',
+      component: message
+    },
+    {
+      path: '/MessageBox',
+      name: 'MessageBox',
+      component: MessageBox
     }
   ]
 })
