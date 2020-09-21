@@ -18,6 +18,11 @@ import alert from '@/components/alert.vue'
 import load from '@/components/load.vue'
 import message from '@/components/message.vue'
 import MessageBox from '@/components/MessageBox.vue'
+import Notification from '@/components/Notification.vue'
+import Tabs from '@/components/Tabs.vue'
+import tag from '@/components/tag.vue'
+import Breadcrumb from '@/components/Breadcrumb.vue'
+import Dropdown from '@/components/Dropdown.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -111,6 +116,31 @@ export default new Router({
       path: '/MessageBox',
       name: 'MessageBox',
       component: MessageBox
+    },
+    {
+      path: '/Notification',
+      name: 'Notification',
+      component: Notification
+    },
+    {
+      path: '/Tabs',
+      name: 'Tabs',
+      component: Tabs
+    },
+    {
+      path: '/tag',
+      name: 'tag',
+      component: tag
+    },
+    {
+      path: '/Breadcrumb',
+      name: 'Breadcrumb',
+      component: Breadcrumb
+    },
+    {
+      path: '/Dropdown',
+      name: 'Dropdown',
+      component: Dropdown
     }
   ]
 })
